@@ -30,7 +30,6 @@ class Command(BaseCommand):
         categories = [cat for cat in Category.objects.all()]
         collections = [col for col in Collection.objects.all()]
 
-        Course.objects.all().delete()
         count = Course.objects.all().count()
 
         print("Courses: ", Course.objects.all().count(), end="\r", flush=True)
