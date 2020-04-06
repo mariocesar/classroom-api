@@ -1,4 +1,7 @@
 Django
+django-debug-toolbar
+factory_boy
+
 docutils
 djangorestframework
 drf-yasg
