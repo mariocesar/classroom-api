@@ -10,7 +10,7 @@ chardet==3.0.4            # via requests
 coreapi==2.3.3            # via drf-yasg
 coreschema==0.0.4         # via coreapi, drf-yasg
 django-debug-toolbar==2.2  # via -r requirements.in
-django==3.0.5             # via -r requirements.in, django-debug-toolbar, djangorestframework, drf-yasg
+django==3.0.7             # via -r requirements.in, django-debug-toolbar, djangorestframework, drf-yasg
 djangorestframework==3.11.0  # via -r requirements.in, drf-yasg
 docutils==0.16            # via -r requirements.in
 drf-yasg==1.17.1          # via -r requirements.in
